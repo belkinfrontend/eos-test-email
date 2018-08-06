@@ -1,0 +1,468 @@
+/* ------------------------------------- 
+		ELEMENTS 
+------------------------------------- */
+
+a {
+    color: #2BA6CB;
+}
+
+.btn {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #666;
+    padding: 10px 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.callout a {
+    font-weight: bold;
+    color: #2BA6CB;
+}
+
+table.social {}
+
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+a.fb {
+    background-color: #3B5998!important;
+}
+
+a.tw {
+    background-color: #1daced!important;
+}
+
+a.gp {
+    background-color: #DB4A39!important;
+}
+
+a.ms {
+    background-color: #000!important;
+}
+
+.sidebar .soc-btn {
+    display: block;
+    width: 100%;
+}
+
+/* ------------------------------------- 
+		HEADER 
+------------------------------------- */
+
+table.head-wrap {
+    width: 100%;
+}
+
+.header.container table td.logo {
+    padding: 15px;
+}
+
+.header.container table td.label {
+    padding: 15px;
+    padding-left: 0px;
+}
+
+
+/* ------------------------------------- 
+		BODY 
+------------------------------------- */
+
+table.body-wrap {
+    width: 100%;
+}
+
+
+/* ------------------------------------- 
+		FOOTER 
+------------------------------------- */
+
+table.footer-wrap {
+    width: 100%;
+    clear: both!important;
+}
+
+.footer-wrap .container td.content p {
+    border-top: 1px solid rgb(215, 215, 215);
+    padding-top: 15px;
+}
+
+.footer-wrap .container td.content p {
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+
+/* ------------------------------------- 
+		TYPOGRAPHY 
+------------------------------------- */
+
+.collapse {
+    margin: 0!important;
+}
+
+p,
+ul {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+p.lead {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+p.last {
+    margin-bottom: 0px;
+}
+
+ul li {
+    margin-left: 5px;
+    list-style-position: inside;
+}
+
+/* ------------------------------------- 
+		SIDEBAR 
+------------------------------------- */
+
+ul.sidebar {
+    background: #ebebeb;
+    display: block;
+    list-style-type: none;
+}
+
+ul.sidebar li {
+    display: block;
+    margin: 0;
+}
+
+ul.sidebar li a {
+    text-decoration: none;
+    color: #666;
+    padding: 10px 16px;
+    /* 	font-weight:bold; */
+    margin-right: 10px;
+    /* 	text-align:center; */
+    cursor: pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display: block;
+    margin: 0;
+}
+
+ul.sidebar li a.last {
+    border-bottom-width: 0px;
+}
+
+ul.sidebar li a h1,
+ul.sidebar li a h2,
+ul.sidebar li a h3,
+ul.sidebar li a h4,
+ul.sidebar li a h5,
+ul.sidebar li a h6,
+ul.sidebar li a p {
+    margin-bottom: 0!important;
+}
+
+
+
+/* --------------------------------------------------- 
+		RESPONSIVENESS
+		Nuke it from orbit. It's the only way to be sure. 
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+
+.container {
+    display: block!important;
+    max-width: 600px!important;
+    margin: 0 auto!important;
+    /* makes it centered */
+    clear: both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+
+.content {
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+
+.content table {
+    width: 100%;
+}
+
+
+/* Odds and ends */
+
+.column {
+    width: 300px;
+    float: left;
+}
+
+.column tr td {
+    padding: 15px;
+}
+
+.column-wrap {
+    padding: 0!important;
+    margin: 0 auto;
+    max-width: 600px!important;
+}
+
+.column table {
+    width: 100%;
+}
+
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float: left;
+}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+
+/* ------------------------------------------- 
+		Overriding some styles.
+-------------------------------------------- */
+
+.section {
+    text-align: center;
+    background: #fff !important;
+
+    .callout {
+        margin-top: 42px;
+        margin-bottom: 30px;
+        
+        font-size: 28px;
+        line-height: 35px;
+        font-weight: bold;
+    }
+
+    .clarification {
+        padding: 0 8%;
+        color: $color-secondary;
+    }
+
+    .tutorial {
+        margin-bottom: 42px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        a {
+            font-size: 16px;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+
+
+
+
+    td {
+        border-radius: $br;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+
+		
+.corner-wrapper {
+    display: block;
+    overflow: hidden;
+    border-radius: $br $br 0 0;
+    transform: translateZ(0px);
+}
+
+
+
+
+.welcome {
+    margin-bottom: 35px;
+
+    .hello {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    img {
+        max-width: 66px;
+
+        background: thistle;
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 36%;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    span {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+
+.lead {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.space {
+    height: 40px;
+}
+
+.btn {
+    font-size: 16px;
+    background-color: $bg-button;
+    border-radius: $br;
+    padding: 15px 50px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: lighten($bg-button, 10%);
+    }
+}
+
+.signature {
+    text-align: center;
+
+    p {
+        color: $color-secondary;
+        margin-top: 15px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #d6d6d6;
+    }
+}
+
+.social {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #d6d6d6;
+
+    p.follow {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 38px;
+    }
+    .social-icons {
+        margin-bottom: 35px;
+    }
+
+    a {
+        margin: 0 7px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+        img {
+            max-width: 40px;
+
+
+
+        }
+    }
+
+    .contact-links {
+        margin-top: 25px;
+        a {
+            margin: 0 7px;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .copyright {
+        color: $color-secondary;
+    }
+}
+
+.logo-social {
+    margin-bottom: 20px;
+    max-width: 70px;
+
+    background: thistle;
+    padding: 10px;
+    border-radius: 36%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-wrap {
+
+
+    .address {
+        margin-bottom: 25px;
+        color: $color-secondary;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+    unsubscribe {
+        color: $color-secondary;
+        font-size: 12px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+/* ------------------------------------------- 
+		PHONE
+		For clients that support media queries.
+		Nothing fancy. 
+-------------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] {
+        //        display: block!important;
+        margin-bottom: 10px!important;
+        background-image: none!important;
+        margin-right: 0!important;
+    }
+
+    div[class="column"] {
+        width: auto!important;
+        float: none!important;
+    }
+
+    table.social div[class="column"] {
+        width: auto!important;
+    }
+
+}
